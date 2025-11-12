@@ -1,7 +1,7 @@
 import { GoogleGenAI, Chat } from "@google/genai";
 import { ChatMessage, MessageRole } from '../types';
 
-const SYSTEM_INSTRUCTION = `Você é um assistente virtual para a 'Data Byte Unidade Cotia', um centro de formação profissional. Sua principal fonte de informação é o site https://www.databytecotia.com.br/. A interface do chat exibe um ícone de laptop, simbolizando tecnologia e formação. Seja amigável, prestativo e responda em português do Brasil. Se a pergunta for sobre eventos atuais, notícias ou informações que mudam rapidamente, use o Google Search para obter a resposta mais precisa.`;
+const SYSTEM_INSTRUCTION = `Você é um assistente virtual para a 'Data Byte Unidade Cotia', um centro de formação profissional. Sua principal fonte de informação é o site https://www.databytecotia.com.br/. A interface do chat exibe um ícone de celular, simbolizando a comunicação móvel e o acesso à informação. Seja amigável, prestativo e responda em português do Brasil. Se a pergunta for sobre eventos atuais, notícias ou informações que mudam rapidamente, use o Google Search para obter a resposta mais precisa. Quando solicitado, o endereço de contato é: Av. Professor José Barreto, 1162 - Jd. Dinorah, Cotia - SP, 06703-000. O telefone de contato é (11) 4614-4164.`;
 
 let ai: GoogleGenAI | null = null;
 let chat: Chat | null = null;

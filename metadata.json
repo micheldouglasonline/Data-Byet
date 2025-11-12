@@ -1,0 +1,5 @@
+{
+  "name": "Data Byte Cotia AI Assistant",
+  "description": "An AI-powered chatbot for Data Byte Unidade Cotia, providing information about courses and services based on their official website and leveraging Google's Gemini and Search.",
+  "requestFramePermissions": []
+}
